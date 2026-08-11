@@ -9,7 +9,7 @@
 ## Project Overview
 
 ## Website Goals and Objectives
-- improve the website's desktop layout
+- Improve the website's desktop layout
 - Provide clear and intuitive navigation
 - Organise products into clear categories
 - Provide customers with useful business information
@@ -18,7 +18,7 @@
 ## Key Features and Functionality
 - Home page
 - About Us page
-- Products Page
+- Products page
 - Services page
 - Contact page
 - Product categories
