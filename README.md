@@ -1,10 +1,10 @@
 # Panorama_Website
 
 ## Student Information
-** Student Name: ** Zusange Mbaleki
-** Course: ** Higher Certificate in Mobile Application and Web Development
-** Institution: ** Rosebank International
-** Project: ** Panorama Pet Shop Website
+* Student Name: Zusange Mbaleki
+* Course: Higher Certificate in Mobile Application and Web Development
+* Institution:  Rosebank International
+* Project:  Panorama Pet Shop Website
 
 ## Project Overview
 
