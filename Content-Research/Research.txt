@@ -36,13 +36,13 @@ Additional product information and descriptions will be written in my own words 
 Images
 The images used for the redesigned Panorama Pet Shop website will be sourced from the official Panorama Pet Shop website. 
 Product images will be used on the Products page, while an image of the Panorama Pet Shop store will be used on the About Us page. 
-A separate image featuring different pets for the homepage will be sourced from Shutterstock. 
+A separate image featuring different pets for the homepage will be sourced from Pexels. 
 The images were selected based on their relevance to the content and purpose of each webpage.
 The source of each image will be recorded so that the original source can be identified.
 
 |      Images                |	Where it was sourced|
 |-----------------------------|----------------------|
-|Homepage pet image	          |Shutterstock|
+|Homepage pet image	          |Pexels|
 |Panorama Pet Shop store image|	Panorama Pet Shop website|
 |Product images.              |	Panorama Pet Shop website|
 
@@ -94,4 +94,4 @@ Flaticon, [n.d.]. Flaticon. [online] Available at: < https://www.flaticon.com/ic
 Google Fonts, [n.d.]. Google Fonts. [online] Available at: < https://fonts.google.com/> [Accessed on: 12 August 2026].
 Lucid Software, [n.d.]. Lucidchart. [online] Available at: < https://lucid.app/documents#/home?folder_id=recent> [Accessed on: 12 August 2026].
 Panorama Pet Shop, [n.d.]. Instagram profile. [online] Available at: < https://www.instagram.com/panoramapetshop/> [Accessed on: 12 August 2026].
-Stutterstock, [n.d.]. Stutterstock. [online] Available at: < https://www.shutterstock.com/image-photo/diverse-group-popular-pets-wild-animals-2716715589?trackingId=f3c01530-644a-46c8-9321-070141ce23db&listId=searchResults> [Accessed on: 12 August 2026].
+Pexels, [n.d.]. Pexels. [online] Available at: < https://www.pexels.com/search/cat%20and%20dog/> [Accessed on: 14 August 2026].
