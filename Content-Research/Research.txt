@@ -90,8 +90,8 @@ This layout keeps images, styling sheets, and scripts organized and can be revie
 
  
 References
-Flaticon, [n.d.]. Flaticon. [online] Available at: < https://www.flaticon.com/icon-fonts-most-downloaded?weight=regular&type=uicon&k=1786369439323&log-in=google> (Accessed on: 12 August 2026).
-Google Fonts, [n.d.]. Google Fonts. [online] Available at: < https://fonts.google.com/> (Accessed on: 12 August 2026).
-Lucid Software, [n.d.]. Lucidchart. [online] Available at: < https://lucid.app/documents#/home?folder_id=recent> (Accessed on: 12 August 2026).
-Panorama Pet Shop, [n.d.]. Instagram profile. [online] Available at: < https://www.instagram.com/panoramapetshop/> (Accessed on: 12 August 2026).
-Stutterstock, [n.d.]. Stutterstock. [online] Available at: < https://www.shutterstock.com/image-photo/diverse-group-popular-pets-wild-animals-2716715589?trackingId=f3c01530-644a-46c8-9321-070141ce23db&listId=searchResults> (Accessed on: 12 August 2026).
+Flaticon, [n.d.]. Flaticon. [online] Available at: < https://www.flaticon.com/icon-fonts-most-downloaded?weight=regular&type=uicon&k=1786369439323&log-in=google> [Accessed on: 12 August 2026].
+Google Fonts, [n.d.]. Google Fonts. [online] Available at: < https://fonts.google.com/> [Accessed on: 12 August 2026].
+Lucid Software, [n.d.]. Lucidchart. [online] Available at: < https://lucid.app/documents#/home?folder_id=recent> [Accessed on: 12 August 2026].
+Panorama Pet Shop, [n.d.]. Instagram profile. [online] Available at: < https://www.instagram.com/panoramapetshop/> [Accessed on: 12 August 2026].
+Stutterstock, [n.d.]. Stutterstock. [online] Available at: < https://www.shutterstock.com/image-photo/diverse-group-popular-pets-wild-animals-2716715589?trackingId=f3c01530-644a-46c8-9321-070141ce23db&listId=searchResults> [Accessed on: 12 August 2026].
