@@ -7,6 +7,16 @@
 * Project:  Panorama Pet Shop Website
 
 ## Project Overview
+Panorama Pet Shop is a responsive pet shop website redesign created created for a local pet shop in Parow, Cape Town.The website was designed to provide customers with an easy way to learn about the business, browse available pet products, view services and contact the shop.
+The website includes the following pages:
+* Home - Introduces Panorama Pet Shop and provides access to the main areas of the website.
+* About Us - Provides information about the business and its purpose.
+* Products - Organises pet products into different categories, including Dogs, Cats, Birds, Fish, Small Animals, and Accessories.
+* Services - Displays the services offered by the pet shop.
+* Contact Us - Provides customers with contact and enquiry information.
+
+The website was developed using HTML, CSS, and JavaScript. The design uses an emerald green, coral orange, cream, soft gray, and charcoal colour palette to create a consistent visual identity throughout the website.
+The project also includes organised product imagery, category navigation, interactive elements, and responsive design features to improve the overall user experience.
 
 ## Website Goals and Objectives
 - Improve the website's desktop layout
