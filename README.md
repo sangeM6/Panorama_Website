@@ -59,7 +59,7 @@ The Panorama Pet Shop proposal was developed based on these Part 1 requirements 
 
 ## Sitemap
 The sitemap below shows the structure and hierarchy of the Panorama Pet Shop website.
-![Panorama Pet Shop Sitemap](Content-Research/Sitemap_image/Sitemap_png)
+![Panorama Pet Shop Sitemap](Content-Research/Sitemap_image/Sitemap.png)
 
 ## Changelog
 ## 14 August 2026
