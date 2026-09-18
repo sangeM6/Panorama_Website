@@ -1,0 +1,271 @@
+/* Colours: Emerald Green, Coral Orange, Cream White and Soft Gray */
+
+body {
+    margin: 0;
+    background-color: #F8F5EC;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #008B6B;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #F8F5EC;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #FF6F61;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #EDEDED;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+button {
+    background-color: #FF6F61;
+    color: #F8F5EC;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008B6B;
+}
+
+input {
+    padding: 15px;
+    width:900px;
+    border: 2px solid #008B6B;
+}
+
+h1, h2, h3, h4 {
+    color: #008B6B;
+}
+
+footer {
+    background-color: #008B6B;
+    color: #F8F5EC;
+    text-align: center;
+    padding: 15px;
+}
+.hero {
+    position: relative;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 60px;
+    left: 570px;
+}
+section {
+    position: relative;
+}
+.button a{
+    margin: 40px;
+}
+section > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+section > div img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+.dog-food,
+.dog-treats,
+.dog-supplements,
+.cat-food,
+.cat-supplements,
+.bird-food,
+.bird-treats,
+.bird-supplements,
+.fish-food,
+.fish-supplements,
+.smallAnimal-food,
+.smallAnimal-supplements,
+.bird-accessories,
+.smallAnimals-Accessories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #F8F5EC;
+    padding: 15px;
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+textarea {
+    width: 910px;
+    height: 180px;
+    padding: 10px;
+    border: 2px solid #008B6B;
+}
+
+.submit {
+    background-color: #FF6F61;
+    color: #F8F5EC;
+    border: none;
+    padding: 15px 40px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #008B6B;
+}
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    border: 2px solid #008B6B;
+    padding: 10px 20px;
+    background-color: #F8F5EC;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #008B6B;
+}
+.buttons button,
+section button {
+    padding: 15px 30px;
+    font-size: 16px;
+}
+.product:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+b{
+    color:#FF6F61;
+
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+
+    /* Navigation */
+    nav {
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    /* Main content */
+    main {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    /* Images */
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Home page buttons */
+    .buttons {
+        position: static;
+        transform: none;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .buttons button,
+    section button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    /* Product categories */
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    ul li {
+        padding: 10px 15px;
+    }
+
+    /* Product cards */
+    .dog-food,
+    .dog-treats,
+    .dog-supplements,
+    .cat-food,
+    .cat-supplements,
+    .bird-food,
+    .bird-treats,
+    .bird-supplements,
+    .fish-food,
+    .fish-supplements,
+    .smallAnimal-food,
+    .smallAnimal-supplements,
+    .bird-accessories,
+    .smallAnimals-Accessories {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .product {
+        padding: 10px;
+    }
+
+    .product img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Contact form */
+    input,
+    textarea {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
