@@ -77,6 +77,26 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 ## 10 August 2026
 * Created the initial HTML pages and started the website structure.
 
+## 15 September 2026
+## Changes based on feedback
+* Added alt text to images to improve accessibility.
+* Added more category images as requested in the feedback.
+* Added comments to the HTML and CSS code to make code easier to understand.
+
+## 16 September 2026
+## New entries
+* Added more products and organised them into categories.
+* Improved the product card layout and spacing.
+* Added hover effects to buttons, navigation links, and product cards.
+
+## 17 September 2026
+## New entries
+* Improved the Contact Us page by increasing the message box size and updating the Submit button.
+* Improved the Home page buttons and layout.
+* Added responsive styling to improve the website on smaller screens.
+* Updated the footer styling.
+* Improved the overall consistency of the website’s colours, layout, and design.
+
 ## References
 Host Africa, 2026. How much does it cost to build a website  in South Africa? (2026 Price Guide).[online] Available at:< https://hostafrica.co.za/blog/websites/website-basics/how-much-does-a-website-cost-in-south-africa/ > [Accessed on: 31 July 2026].
 Interaction Design Foundation, [n.d.]. Interaction Design Foundation. [online] Available at: < https://www.interaction-design.org/ > [Accessed on: 30 July 2026].
