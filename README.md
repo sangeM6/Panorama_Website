@@ -82,6 +82,7 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 * Added alt text to images to improve accessibility.
 * Added more category images as requested in the feedback.
 * Added comments to the HTML and CSS code to make code easier to understand.
+* Fixed the Sitemap image and made it visible.
 
 ## 16 September 2026
 ## New entries
@@ -100,8 +101,10 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 ## References
 Host Africa, 2026. How much does it cost to build a website  in South Africa? (2026 Price Guide).[online] Available at:< https://hostafrica.co.za/blog/websites/website-basics/how-much-does-a-website-cost-in-south-africa/ > [Accessed on: 31 July 2026].
 Interaction Design Foundation, [n.d.]. Interaction Design Foundation. [online] Available at: < https://www.interaction-design.org/ > [Accessed on: 30 July 2026].
+Mozilla Developer Network (MDN), [n.d.]. CSS Reference. [online] Available at:<https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts> [Accessed on: 17 September 2026].
 Smith R., 2017. Validating product Design ideas with low-fidelity wireframes. [online] Available at:<https://medium.com/@robertsmith_co/validating-your-product-design-ideas-with-low-fidelity-wireframes-fba03b84af23 > [Accessed on: 31 July 2026].
 Panorama Pet Shop, [n.d.]. Panorama Pet Shop. [online] Available at: < https://panoramapetshop.co.za/product-category/reptiles/ >[Accessed on: 31 July 2026].
+W3Schools, [n.d.]. CSS Tutorial. [online] Available at: <https://www.w3schools.com/css/> [Accessed on: 17 September 2026].
 
 
 
