@@ -90,7 +90,10 @@ h4{
 p{
     font-size:1rem;
 }
-
+input:focus, textarea:focus, button:focus, a:focus{
+    outline: 3px solid var(--coral);
+    outline-offset: 2px;
+}
 
 footer {
     background-color: var(--emerald);
@@ -303,6 +306,25 @@ b{
 
     textarea {
         width: 100%;
+    }
+}
+@media (max-width: 480px){
+    nav{
+        padding:10px;
+    }
+    nav a{
+        margin:6px;
+    }
+    section{
+        padding:10px
+    }
+    .product img{
+        width:80px;
+        height:80px;
+    }
+    .buttons button, section button{
+        padding:10px 15px;
+        font-size:13px;
     }
 }
 
