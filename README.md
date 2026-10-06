@@ -78,6 +78,10 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 | 17 September 2026| Improved the Contact Us page by increasing the message box size and updating the Submit button. <br> Improved the Home page buttons and layout. <br> Added responsive styling to improve the website on smaller screens. <br> Updated the footer styling. <br> improved the overall consistency of the website's colors, layout, and design.|
 
 
+### Part 2 Feddback fixes
+| Date | Feedback point | What I changed | File(s) | Commit message |
+|---|---|---|---|---|
+| 06 October 2026| Include a CSS reset.<br> Include reusable variables.| Added a CSS reset to remove default spacing and make the layout more consistent. <br>Added reuable color varibales to make the colors easier to manage | CSS/styles.css | Added a css reset. <br> Added reusable css variables as instructed on the feedback.|
 
 
 ## References
