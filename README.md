@@ -83,7 +83,7 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 |---|---|---|---|---|
 | 06 October 2026| Include a CSS reset and include reusable variables.| 1.Added a CSS reset to remove default spacing and make the layout more consistent. <br>2.Added reuable color varibales to make the colors easier to manage | CSS/styles.css | 1.Added a css reset. <br> 2.Added reusable css variables as instructed on the feedback.|
 | 06 October 2026| Avoid using fixed positioning| Fixed the 900px input width and removed the fixed left: 570px button positioning| CSS/styles.css | Improved CSS layout and typography as requested on the part 2 feedback.|
-| 06 October 2026| Include visible focus states and an additional 480px breakpoint| Added visible fovus states and a 480px breakpoint for smaller mobile screens| CSS/styles.css| Added the 480px breakpoint and visible focus states as requested on part 2 feedback.|
+| 06 October 2026| Include visible focus states and an additional 480px breakpoint| Added visible focus states and a 480px breakpoint for smaller mobile screens| CSS/styles.css| Added the 480px breakpoint and visible focus states as requested on part 2 feedback.|
 
 
 ## References
