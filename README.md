@@ -74,7 +74,7 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 | Date | Changes |
 |---|---|
 | 15 September 2026| Added alt text to images to improve accessibility.<br> Added more category images as requested in the feeback. <br> Added comments to the HTML and CSS code to make it easier to understand. <br> Fixed the Sitemap image and made it visible.|
-| 16 September 2026| Added more products and organised them into  categories. <b> Improved the product card layout and spacing. <b> Added hover effects to buttons, navigation links, and product cards. |
+| 16 September 2026| Added more products and organised them into  categories. <br> Improved the product card layout and spacing. <br> Added hover effects to buttons, navigation links, and product cards. |
 | 17 September 2026| Improved the Contact Us page by increasing the message box size and updating the Submit button. <br> Improved the Home page buttons and layout. <br> Added responsive styling to improve the website on smaller screens. <br> Updated the footer styling. <br> improved the overall consistency of the website's colors, layout, and design.|
 
 
