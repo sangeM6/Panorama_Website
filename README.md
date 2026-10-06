@@ -62,41 +62,23 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 ![Panorama Pet Shop Sitemap](Content-Research/Sitemap_image/Sitemap.png)
 
 ## Changelog
-## 14 August 2026
-* Changed the homepage pet image.
-* Added project research to the README.
-* Added the sitemap to the README.
-* Added the project file and folder structure to the README.
+### Part 1 Changelog
+| Date | Changes |
+|---|---|
+| 10 August 2026| Created the initisl HTML pages and started the websote structure.|
+| 12 August 2026| Added images to the website and organised them according to thier product categories.|
+| 13 August 2026| Added the first half of the README. |
+| 14 August 2026| Changed the homepage pet image.<br> Added project reasearch to the README. <br> Added the sitemap to the README. <br> Added the project file and folder structure to the README. |
 
-## 13 August 2026
-* Added the first half of the README.
+### Part 1 Feedback fixes
+| Date | Changes |
+|---|---|
+| 15 September 2026| Added alt text to images to improve accessibility.<br> Added more category images as requested in the feeback. <br> Added comments to the HTML and CSS code to make it easier to understand. <br> Fixed the Sitemap image and made it visible.|
+| 16 September 2026| Added more products and organised them into  categories. <b> Improved the product card layout and spacing. <b> Added hover effects to buttons, navigation links, and product cards. |
+| 17 September 2026| Improved the Contact Us page by increasing the message box size and updating the Submit button. <br> Improved the Home page buttons and layout. <br> Added responsive styling to improve the website on smaller screens. <br> Updated the footer styling. <br> improved the overall consistency of the website's colors, layout, and design.|
 
-## 12 August 2026
-* Added images to the website and organised them according to their product categories.
 
-## 10 August 2026
-* Created the initial HTML pages and started the website structure.
 
-## 15 September 2026
-## Changes based on feedback
-* Added alt text to images to improve accessibility.
-* Added more category images as requested in the feedback.
-* Added comments to the HTML and CSS code to make code easier to understand.
-* Fixed the Sitemap image and made it visible.
-
-## 16 September 2026
-## New entries
-* Added more products and organised them into categories.
-* Improved the product card layout and spacing.
-* Added hover effects to buttons, navigation links, and product cards.
-
-## 17 September 2026
-## New entries
-* Improved the Contact Us page by increasing the message box size and updating the Submit button.
-* Improved the Home page buttons and layout.
-* Added responsive styling to improve the website on smaller screens.
-* Updated the footer styling.
-* Improved the overall consistency of the website’s colours, layout, and design.
 
 ## References
 Host Africa, 2026. How much does it cost to build a website  in South Africa? (2026 Price Guide).[online] Available at:< https://hostafrica.co.za/blog/websites/website-basics/how-much-does-a-website-cost-in-south-africa/ > [Accessed on: 31 July 2026].
