@@ -161,7 +161,8 @@ section > div img {
     object-fit: contain;
 }
 textarea {
-    width: 910px;
+    width: 100%;
+    max-width:900px;
     height: 180px;
     padding: 10px;
     border: 2px solid var(--emerald);
@@ -200,16 +201,10 @@ ul {
     list-style: none;
     padding: 0;
 }
+.category-button{
+    padding:8px 16px;
+}
 
-ul li {
-    border: 2px solid var(--emerald);
-    padding: 10px 20px;
-    background-color: var(--cream);
-}
-ul li:hover{
-    background-color: var(--emerald);
-    color: var(--cream);
-}
 ul li a:hover{
     color: var(--cream);
 }
@@ -228,6 +223,25 @@ section button {
 }
 b{
     color: var(--coral);
+}
+/* Navigation Menu button */
+.nav-toggle{
+    display:none;
+    flex-direction:column;
+    justify-content:space-between;
+    width:35px;
+    height:28px;
+    padding:4px;
+    border:none;
+    background:transparent;
+    cursor:pointer;
+}
+.nav-toggle span{
+    display:block;
+    width:100%;
+    height:3px;
+    background-color: var(--cream);
+    border-radius:2px;
 }
 
 
@@ -333,6 +347,28 @@ b{
     textarea {
         width: 100%;
     }
+    /* Dropdown navigation */
+    nav{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding:15px;
+    }
+    nav .nav-toggle{
+        display:flex;
+        align-self: flex-start;
+    }
+    nav a{
+        display:none;
+        width:100%;
+        box-sizing: border-box;
+        margin:0;
+        padding:12px;
+        text-align: left;
+    }
+    nav.dropdown-open a{
+        display:block;
+    }
 }
 @media (max-width: 480px){
     nav{
@@ -360,6 +396,27 @@ b{
     .search-container input{
         width:auto;
         flex:1;
+    }
+     /* Contact form */
+    input,
+    textarea {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        width: 100%;
+    }
+    /*Naviggation dropwdon */
+    nav .nav-toggle{
+        display:flex;
+        align-self: flex-start;
+    }
+    nav a{
+        font-size:16px;
+    }
+    nav{
+        padding:10px;
     }
    
 }

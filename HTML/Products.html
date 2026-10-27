@@ -9,6 +9,11 @@
 <body>
     <!-- Navigation menu -->
      <nav>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <a href="../index.html">Home</a>
         <a href="About.html">About Us</a>
         <a href="Products.html">Products</a>
@@ -26,14 +31,15 @@
         </section>
 
         <!-- Product categories -->
-        <h2>Categories</h2>
+       <h2>Categories</h2>
+
         <ul>
-            <li><a href="#dogs">Dog</a></li>
-            <li><a href="#cats">Cat</a></li>
-            <li><a href="#birds">Birds</a></li>
-            <li><a href="#fish">Fish</a></li>
-            <li><a href="#small-animals">Small Animals</a></li>
-            <li><a href="#accessories">Accessories</a></li>
+            <li><button type="button" onclick="goToCategory('dogs')" class="category-button">Dog</button></li>
+            <li><button type="button" onclick="goToCategory('cats')" class="category-button">Cat</button></li>
+            <li><button type="button" onclick="goToCategory('birds')" class="category-button">Birds</button></li>
+            <li><button type="button" onclick="goToCategory('fish')" class="category-button">Fish</button></li>
+            <li><button type="button" onclick="goToCategory('small-animals')" class="category-button">Small Animals</button></li>
+            <li><button type="button" onclick="goToCategory('accessories')" class="category-button">Accessories</button></li>
         </ul>
         <section id="dogs">
             <h2>Dog Products</h2>
@@ -876,5 +882,6 @@
      <footer>
         <p>&copy; 2023 Panorama Pet Shop. All rights reserved.</p>
     </footer>
+    <script src="../javascript/script.js"></script>
 </body>
 </html>
