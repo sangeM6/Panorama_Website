@@ -81,10 +81,10 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 ### Part 2 Feedback fixes
 | Date | Feedback point | What I changed | File(s) | Commit message |
 |---|---|---|---|---|
-| 06 October 2026| Include a CSS reset and include reusable variables.| 1.Added a CSS reset to remove default spacing and make the layout more consistent. <br>2.Added reuable color varibales to make the colors easier to manage | CSS/styles.css | 1.Added a css reset. <br> 2.Added reusable css variables as instructed on the feedback.|
-| 06 October 2026| Avoid using fixed positioning| Fixed the 900px input width and removed the fixed left: 570px button positioning| CSS/styles.css | Improved CSS layout and typography as requested on the part 2 feedback.|
-| 06 October 2026| Include visible focus states and an additional 480px breakpoint| Added visible focus states and a 480px breakpoint for smaller mobile screens| CSS/styles.css| Added the 480px breakpoint and visible focus states as requested on part 2 feedback.|
-| 27 October 2026| The search bar layout needs improvement on smaller screens to ensure that the search input field and search button displays correctly and remain aligned. | 1. Fixed search bar layout to ensure the search input and search button remain side by side on smaller screens. <br> 2. Improved the responsiveness of the search section for mobile devices. | CSS/styles.css | Improved responsive search layout. |
+| 06 October 2026| Include a CSS reset and include reusable variables.| 1.Added a CSS reset to remove default spacing and make the layout more consistent. <br>2.Added reuable color varibales to make the colors easier to manage | css/styles.css | 1.Added a css reset. <br> 2.Added reusable css variables as instructed on the feedback.|
+| 06 October 2026| Avoid using fixed positioning| Fixed the 900px input width and removed the fixed left: 570px button positioning| css/styles.css | Improved CSS layout and typography as requested on the part 2 feedback.|
+| 06 October 2026| Include visible focus states and an additional 480px breakpoint| Added visible focus states and a 480px breakpoint for smaller mobile screens| css/styles.css| Added the 480px breakpoint and visible focus states as requested on part 2 feedback.|
+| 27 October 2026| The search bar layout needs improvement on smaller screens to ensure that the search input field and search button displays correctly and remain aligned. | 1. Fixed search bar layout to ensure the search input and search button remain side by side on smaller screens. <br> 2. Improved the responsiveness of the search section for mobile devices. | css/styles.css | Improved responsive search layout. |
 
 
 ## References
