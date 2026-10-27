@@ -175,6 +175,20 @@ textarea {
     height: 50px;
     cursor: pointer;
 }
+.search-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:8px;
+    width:100%;
+}
+.search-container input{
+    flex:1;
+    padding:8px 16px;
+}
+.search-container button{
+    padding:8px 16px;
+}
 
 .submit:hover {
     background-color: var(--emerald);
@@ -243,6 +257,15 @@ b{
     }
 
     /* Home page buttons */
+    .search-container{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+    }
+    .search-container input{
+        width:auto;
+        flex:1;
+    }
     .buttons {
         position: static;
         transform: none;
@@ -326,5 +349,15 @@ b{
         padding:10px 15px;
         font-size:13px;
     }
+    .search-container{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+    }
+    .search-container input{
+        width:auto;
+        flex:1;
+    }
+   
 }
 
