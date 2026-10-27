@@ -33,6 +33,7 @@ nav a {
 
 nav a:hover {
     color: var(--coral);
+    background-color: var(--cream);
 }
 
 main {
@@ -90,7 +91,7 @@ h4{
 p{
     font-size:1rem;
 }
-input:focus, textarea:focus, button:focus, a:focus{
+input:focus, textarea:focus, button:focus{
     outline: 3px solid var(--coral);
     outline-offset: 2px;
 }
@@ -209,7 +210,9 @@ ul li:hover{
     background-color: var(--emerald);
     color: var(--cream);
 }
-
+ul li a:hover{
+    color: var(--cream);
+}
 ul li a {
     text-decoration: none;
     color: var(--emerald);
