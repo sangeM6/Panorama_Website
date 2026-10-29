@@ -16,7 +16,8 @@ body {
     margin: 0;
     background-color: var(--cream);
     color: var(--text);
-    font-family: Arial, sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
+    line-height:1.6;
 }
 
 nav {
@@ -29,6 +30,7 @@ nav a {
     color: var(--cream);
     text-decoration: none;
     margin: 15px;
+    font-family:inherit;
 }
 
 nav a:hover {
@@ -59,6 +61,7 @@ button {
     padding: 12px 20px;
     margin: 5px;
     cursor: pointer;
+    font-family:inherit;
     border-radius: 8px;
 }
 
@@ -73,28 +76,29 @@ input {
     border: 2px solid var(--emerald);
     border-radius:5px;
 }
-textarea{
-    border-radius:5px;
-}
 
+h1, h2, h3, h4{
+    font-family:Georgia, "Times New Roman", serif;
+    color: var(--emarald);
+    line-height:1.2;
+    margin-bottom:12px;
+}
 h1{
-    color: var(--emerald);
     font-size: 2rem;
 }
 h2{
-    color: var(--emerald);
     font-size: 1.6rem;
 }
 h3{
-    color: var(--emerald);
     font-size: 1.3rem;
 }
 h4{
-    color: var(--emerald);
     font-size: 1.1rem;
 }
 p{
     font-size:1rem;
+    line-height:1.6;
+    margin-bottom:10px;
 }
 input:focus, textarea:focus, button:focus{
     outline: 1px solid var(--emerald);
@@ -171,6 +175,7 @@ textarea {
     height: 180px;
     padding: 10px;
     border: 2px solid var(--emerald);
+    border-radius: 8px;
 }
 
 .submit {
