@@ -1,29 +1,40 @@
-//Category function
 function goToCategory(category) {
-    const sections = document.querySelectorAll("main section");
-    //if 'all' is clicked show every section
-    if(category === "all") {
-        sections.forEach(function(section){
-            section.style.display ="block";
-        });
-        window.scrollTo({
-            top:0,
-            behavior: "smooth"
-        });
-        return;
-    }
-    //show only the selected category
-    sections.forEach(function(section){
-        if(section.id === category) {
-            section.style.display = "block";
-            section.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            })
-        } else{
-            section.style.display = "none";
+    const categoryIds = [
+        "dogs",
+        "cats",
+        "birds",
+        "fish",
+        "small-animals",
+        "accessories"
+    ];
+
+    categoryIds.forEach(function(id) {
+        const section = document.getElementById(id);
+
+        if (section) {
+            if (category === "all" || id === category) {
+                section.style.display = "block";
+            } else {
+                section.style.display = "none";
+            }
         }
     });
+
+    if (category === "all") {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    } else {
+        const selectedSection = document.getElementById(category);
+
+        if (selectedSection) {
+            selectedSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
+    }
 }
 
 //get the hamburger button and navigation menu
