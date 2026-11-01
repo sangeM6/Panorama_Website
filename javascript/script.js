@@ -8,18 +8,47 @@ function goToCategory(category) {
         "accessories"
     ];
 
+    // Clear the search field and previous search message.
+    const searchInput = document.getElementById("product-search");
+    const searchMessage = document.getElementById("search-message");
+
+    if (searchInput) {
+        searchInput.value = "";
+    }
+
+    if (searchMessage) {
+        searchMessage.textContent = "";
+    }
+
+    // Reset products hidden by the previous search.
     categoryIds.forEach(function(id) {
         const section = document.getElementById(id);
 
-        if (section) {
-            if (category === "all" || id === category) {
-                section.style.display = "block";
-            } else {
-                section.style.display = "none";
-            }
+        if (!section) {
+            return;
         }
+
+        section.querySelectorAll(".product").forEach(function(product) {
+            product.style.display = "";
+        });
+
+        section.querySelectorAll(".product-list").forEach(function(group) {
+            group.style.display = "";
+
+            const heading = group.previousElementSibling;
+
+            if (heading && heading.tagName === "H3") {
+                heading.style.display = "";
+            }
+        });
+
+        // Show all categories or only the selected category.
+        section.style.display = (category === "all" || id === category)
+            ? "block"
+            : "none";
     });
 
+    // Scroll to the selected category.
     if (category === "all") {
         window.scrollTo({
             top: 0,
