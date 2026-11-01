@@ -191,3 +191,41 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
+
+// Homepage product search
+const homeSearch = document.getElementById("home-search");
+const homeSearchButton = document.getElementById("home-search-button");
+
+if (homeSearch && homeSearchButton) {
+
+    function searchFromHome() {
+        const searchTerm = homeSearch.value.trim();
+
+        if (searchTerm !== "") {
+            window.location.href = "html/Products.html?search=" + encodeURIComponent(searchTerm);
+        }
+    }
+
+    homeSearchButton.addEventListener("click", searchFromHome);
+
+    homeSearch.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            searchFromHome();
+        }
+    });
+}
+
+// Get search term from homepage
+document.addEventListener("DOMContentLoaded", function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchTerm = urlParams.get("search");
+
+    const searchInput = document.getElementById("product-search");
+    const searchButton = document.getElementById("search-button");
+
+    if (searchTerm && searchInput && searchButton) {
+        searchInput.value = searchTerm;
+        searchButton.click();
+    }
+});
