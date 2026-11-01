@@ -95,10 +95,13 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 |---|---|---|---|---|
 |29 October 2026 | Add category filtering buttons | Added an 'all' button and added category filtering buttons | html/Products.html and javascript/script.js | Updated the product category buttons so when the user clicks the 'dog' button it filters the other products and show only the do items. |
 |29 October 2026 | Add search functionality | Updated the search field so the user can search items like 'dog supplements' and only show the dog supplements| html/Products.html and javascript/script.js| Updated search functionality.|
-|01 November 2026| - | Added a logo image to make the navbar a little bit appealing| index.html, html/About.html, html/Products.html, html/Contact.html, html/Services.html and MEDIA/ | Added the logo image to all the website screens and edited the navbar.| 
+|01 November 2026| - | Added a logo image to make the navbar a little bit appealing| index.html, html/About.html, html/Products.html, html/Contact.html, html/Services.html and MEDIA/home/ | Added the logo image to all the website screens and edited the navbar.|
+|01 November 2026| Add search functionality| Added the homepage product search for when the user searches on homepage it will redirect them to the products page and show whatever products is searched| index.html and javascript/script.js| Added homepage product search functionality| 
+|01 November 2026| - | Added a new reference 'DESIGN.COM' for the logo image i created.| MEDIA/home/ | - |
 
 
 ## References
+DESIGN.COM, 2026. _DESIGN.COM_ .[online] Available at: <https://www.design.com/maker/mylogos/drafts/e923f4f1-8670-43df-990f-f0f8613697a5/editor>
 Host Africa, 2026. How much does it cost to build a website  in South Africa? (2026 Price Guide).[online] Available at:< https://hostafrica.co.za/blog/websites/website-basics/how-much-does-a-website-cost-in-south-africa/ > [Accessed on: 31 July 2026].
 Interaction Design Foundation, [n.d.]. Interaction Design Foundation. [online] Available at: < https://www.interaction-design.org/ > [Accessed on: 30 July 2026].
 Mozilla Developer Network (MDN), [n.d.]. CSS Reference. [online] Available at:<https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts> [Accessed on: 17 September 2026].
