@@ -266,6 +266,23 @@ b{
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 0.9rem;
+    }
+    p{
+        font-size:0.6rem;
+        line-height:1.6;
+        margin-bottom:10px;
+    }
 
     /* Navigation */
     nav {
@@ -371,11 +388,17 @@ b{
     textarea {
         max-width: 100%;
         box-sizing: border-box;
+        font-size:14px;
+    }
+    .submit{
+        width:auto;
+        padding:10px 20px;
+        font-size:14px;
     }
 
-    textarea {
+    /* textarea {
         width: 100%;
-    }
+    } */
     /* Dropdown navigation */
     nav .nav-toggle{
         display:flex;
@@ -398,6 +421,23 @@ b{
 
 
 @media (max-width: 480px){
+      h1{
+        font-size: 1.3rem;
+    }
+    h2{
+        font-size: 1.1rem;
+    }
+    h3{
+        font-size: 0.9rem;
+    }
+    h4{
+        font-size: 0.6rem;
+    }
+    p{
+        font-size:0.5rem;
+        line-height:1.6;
+        margin-bottom:10px;
+    }
     nav{
         padding:10px;
     }
