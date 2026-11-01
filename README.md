@@ -88,8 +88,14 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 | 27 October 2026 | Ensure the textarea is responsive and maintains a consistent width. | Improved responsiveness, navigation menu  bar for smaller screens and form styling. | 1. index.html <br> 2. html/About.html <br> html/Products.html <br> html/Services.html <br> html/Contact.html <br> 3. css/styles.css <br> 4. javascript/script.js | Improved responsiveness, navigation and form styling.|
 |29 October 2026 | Include a consistent type scale | Changed the font family of h1, h2, h3, h4 and p throughout the whole website. | css/styles.css | Changed the fonts throughout the website for a consistent typography. |
 |29 October 2026 | Include a visible state focus | Included the focus state of buttons and added an autofocus on the name input field on the contact page. | css/styles.css and html/Contact.html | Updated the focus state of the buttons and  added an autofocus on the contact page 'name' input field. |
-| 29 October 2026 | Add category filtering buttons | Added an 'all' button and added category filtering buttons | html/Products.html and javascript/script.js | Updated the product category buttons so when the user clicks 'dog' button it filters the other products and show only the dog items. |
 
+
+### Part 3 Feedback Fixes/Improvements
+| Date | Feedback point | What I changed | File(s) | Commit message |
+|---|---|---|---|---|
+|29 October 2026 | Add category filtering buttons | Added an 'all' button and added category filtering buttons | html/Products.html and javascript/script.js | Updated the product category buttons so when the user clicks the 'dog' button it filters the other products and show only the do items. |
+|29 October 2026 | Add search functionality | Updated the search field so the user can search items like 'dog supplements' and only show the dog supplements| html/Products.html and javascript/script.js| Updated search functionality.|
+|01 November 2026| - | Added a logo image to make the navbar a little bit appealing| index.html, html/About.html, html/Products.html, html/Contact.html, html/Services.html and MEDIA/ | Added the logo image to all the website screens and edited the navbar.| 
 
 
 ## References
