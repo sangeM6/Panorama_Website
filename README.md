@@ -97,7 +97,7 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 |29 October 2026 | Add search functionality | Updated the search field so the user can search items like 'dog supplements' and only show the dog supplements| html/Products.html and javascript/script.js| Updated search functionality.|
 |01 November 2026| - | Added a logo image to make the navbar a little bit appealing| index.html, html/About.html, html/Products.html, html/Contact.html, html/Services.html and MEDIA/home/ | Added the logo image to all the website screens and edited the navbar.|
 |01 November 2026| Add search functionality| Added the homepage product search for when the user searches on homepage it will redirect them to the products page and show whatever products is searched| index.html and javascript/script.js| Added homepage product search functionality| 
-|01 November 2026| - | Added a new reference 'DESIGN.COM' for the logo image i created.| MEDIA/home/ | - |
+|01 November 2026| - | Added a new reference 'DESIGN.COM' for the logo image i created.| MEDIA/home/ | Updated part 3 feedback fixes table and added a new reference on the reference list. |
 
 
 ## References
