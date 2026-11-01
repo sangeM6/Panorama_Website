@@ -19,11 +19,19 @@ body {
     font-family: "Trebuchet MS", sans-serif;
     line-height:1.6;
 }
-
+.logo{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    margin-right:auto;
+}
 nav {
     background-color: var(--emerald);
-    padding: 20px;
+    padding:10px 20px;
     text-align: center;
+    display:flex;
+    align-items:center;
+    gap:20px;
 }
 
 nav a {
@@ -239,6 +247,7 @@ b{
     display:none;
     flex-direction:column;
     justify-content:space-between;
+    margin-left:auto;
     width:35px;
     height:28px;
     padding:4px;
@@ -260,9 +269,19 @@ b{
 
     /* Navigation */
     nav {
-        padding: 15px;
-    }
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        align-items:center;
+        padding: 10px 15px;
 
+    }
+    nav .logo{
+        width:50px;
+        height:50px;
+        flex: 0 0 60px;
+        object-fit:contain;
+    }
     nav a {
         display: block;
         margin: 10px;
@@ -358,15 +377,10 @@ b{
         width: 100%;
     }
     /* Dropdown navigation */
-    nav{
-        display:flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding:15px;
-    }
     nav .nav-toggle{
         display:flex;
         align-self: flex-start;
+        margin-left:auto;
     }
     nav a{
         display:none;
@@ -375,11 +389,14 @@ b{
         margin:0;
         padding:12px;
         text-align: left;
+        flex:0 0 100%;
     }
     nav.dropdown-open a{
         display:block;
     }
 }
+
+
 @media (max-width: 480px){
     nav{
         padding:10px;
@@ -420,7 +437,8 @@ b{
     /*Naviggation dropwdon */
     nav .nav-toggle{
         display:flex;
-        align-self: flex-start;
+        align-self:center;
+        margin-left:auto;
     }
     nav a{
         font-size:16px;
