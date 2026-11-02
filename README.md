@@ -105,6 +105,7 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 
 ## References
 DESIGN.COM, 2026. _DESIGN.COM_ .[online] Available at: <https://www.design.com/maker/mylogos/drafts/e923f4f1-8670-43df-990f-f0f8613697a5/editor>
+Google Maps, 2026. _Google Maps_ .[online] Available at: <https://www.google.com/maps/@-33.9030213,18.573739,14z?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D>
 Host Africa, 2026. How much does it cost to build a website  in South Africa? (2026 Price Guide).[online] Available at:< https://hostafrica.co.za/blog/websites/website-basics/how-much-does-a-website-cost-in-south-africa/ > [Accessed on: 31 July 2026].
 Interaction Design Foundation, [n.d.]. Interaction Design Foundation. [online] Available at: < https://www.interaction-design.org/ > [Accessed on: 30 July 2026].
 Mozilla Developer Network (MDN), [n.d.]. CSS Reference. [online] Available at:<https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts> [Accessed on: 17 September 2026].
