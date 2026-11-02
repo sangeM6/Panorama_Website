@@ -33,19 +33,37 @@ nav {
     align-items:center;
     gap:20px;
 }
-
 nav a {
     color: var(--cream);
     text-decoration: none;
     margin: 15px;
-    font-family:inherit;
+    font-family: inherit;
+    font-weight: bold;
+    position: relative;
+}
+
+/* Smooth underline animation */
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--coral);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
 }
 
 nav a:hover {
     color: var(--coral);
-    background-color: var(--cream);
 }
 
+nav a:hover::after {
+    transform: scaleX(1);
+}
 main {
     padding: 20px;
 }
@@ -396,9 +414,7 @@ b{
         font-size:14px;
     }
 
-    /* textarea {
-        width: 100%;
-    } */
+   
     /* Dropdown navigation */
     nav .nav-toggle{
         display:flex;
@@ -424,10 +440,86 @@ b{
     .faq-question, .faq-answer{
         padding:12px;
     }
+    /* Responsive Footer */
+
+.footer {
+    padding: 8px 15px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr auto;
+    gap: 10px;
+    align-items: start;
+}
+
+.footer-links {
+    order: 1;
+    border-right: 1px solid var(--cream);
+    padding-right: 5px;
+}
+
+.footer-contact {
+    order: 2;
+    border-right: none;
+    padding-left: 5px;
+}
+
+.footer-logo {
+    order: 3;
+    justify-self: end;
+    text-align: right;
+    margin-top: 0;
+}
+
+.footer-logo img {
+    width: 55px;
+    height: auto;
+}
+
+.footer h3 {
+    font-size: 10px;
+}
+
+.footer-links a,
+.footer-contact p,
+.footer-contact a {
+    font-size: 8px;
+    line-height: 1.4;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    padding-top: 8px;
+}
+
+.footer-bottom p {
+    font-size: 10px;
+}
 }
 
 
 @media (max-width: 480px){
+    .footer-content{
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+       
+    }
+    .footer-links, .footer-contact{
+        padding: 0 8px;
+    }
+    .footer h3{
+        font-size:11px;
+    }
+    .footer-links, .footer-contact p, .footer-contact a{
+        font-size:10px;
+    }
+    .footer-logo img{
+        width:55px;
+    }
+    .footer-bottom p{
+        font-size:9px;
+    }
     .faq-question, .faq-answer{
         padding:10px;
         font-size:14px;
@@ -578,4 +670,119 @@ b{
     width:100%;
     height:450px;
     border:0;
+}
+/* Footer */
+
+.footer {
+    width: 100%;
+    padding: 8px 20px;
+    background-color: var(--emerald);
+    color: var(--cream);
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+    margin: 0;
+    align-items: start;
+}
+
+/* Quick Links - Far Left */
+
+.footer-links {
+    order: 1;
+    border-right: 1px solid var(--cream);
+    text-align: left;
+}
+
+.footer-links a {
+    display: block;
+    color: var(--cream);
+    text-decoration: none;
+    margin-bottom: 4px;
+    font-size:12px;
+    line-height:1.3;
+    margin-bottom:2px;
+}
+
+/* Contact Information - Middle */
+
+.footer-contact {
+    order: 2;
+    border-right: 1px solid var(--cream);
+    text-align: left;
+}
+
+.footer-contact p {
+    margin-bottom: 5px;
+    overflow-wrap: anywhere;
+    font-size:12px;
+    line-height:1.3;
+    margin-bottom:2px;
+}
+
+.footer-contact a {
+    color: var(--cream);
+    text-decoration: none;
+    font-size:12px;
+    line-height:1.3;
+    margin-bottom:2px;
+}
+
+/* Logo - Far Right */
+
+.footer-logo {
+    order: 3;
+    justify-self: end;
+    text-align: right;
+}
+
+.footer-logo img {
+    width: 80px;
+    max-width: 90%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+/* Footer Text Size */
+
+.footer h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-links a,
+.footer-contact p,
+.footer-contact a {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+/* Copyright */
+
+.footer-bottom {
+    width: 100%;
+    margin: 10px auto 0;
+    padding-top: 15px;
+    border-top: 1px solid var(--cream);
+    text-align: center;
+}
+.footer-links a:hover{
+    color:var(--coral);
+
+}
+.footer-contact a:hover{
+    color:var(--coral);
+    text-decoration:underline;
 }
