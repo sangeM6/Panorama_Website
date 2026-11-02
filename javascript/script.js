@@ -229,3 +229,46 @@ document.addEventListener("DOMContentLoaded", function() {
         searchButton.click();
     }
 });
+
+//FAQ Accordion functionality
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const faqQuestions = document.querySelectorAll(".faq-question");
+
+    faqQuestions.forEach(function(question) {
+
+        question.addEventListener("click", function() {
+
+            const answer = document.getElementById(
+                question.getAttribute("aria-controls")
+            );
+
+            const isExpanded = question.getAttribute("aria-expanded") === "true";
+
+            if (!answer) {
+                return;
+            }
+
+            // Close all FAQ answers.
+            faqQuestions.forEach(function(item) {
+
+                item.setAttribute("aria-expanded", "false");
+
+                const itemAnswer = document.getElementById(
+                    item.getAttribute("aria-controls")
+                );
+
+                if (itemAnswer) {
+                    itemAnswer.hidden = true;
+                }
+            });
+
+            // Open the selected answer.
+            if (!isExpanded) {
+                question.setAttribute("aria-expanded", "true");
+                answer.hidden = false;
+            }
+        });
+    });
+});
