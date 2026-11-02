@@ -104,8 +104,25 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 |02 November 2026| Include a form in both inquiry.html and contact.html| Added the inquiry page and then linked css to it for style. | inquiry.html | Added an inquiry page and updated the nav links and footer links on every page. |
 |02 November 2026| Create Sitemap.xml and Robots.txt files | Created the sitemap.xml and robots.txt files. | robots.txt and sitemap.xml | Added robots.txt <br> Added sitemap.xml |
 
+### Part 3 Screenshots of the Webiste in 3 different screens
+## Homepage Responsive Design
+|Nest Hub Max | iPad Mini | iPhone 16 |
+|:---:|:---:|:---:|
+| <img src="screenshots/nestHubMax-homepage.jpeg" width="300"> | <img src="screenshots/ipadMini-homepage.jpeg" width="200"> | <img src="screenshots/mobile-homepage.jpeg" width="150"> |
+
+## Services Responsive design
+|Nest Hub Max | iPad Mini | iPhone 16 |
+|:---:|:---:|:---:|
+| <img src="screenshots/nestHub-Services.jpeg" width="300"> | <img src="screenshots/ipadMini-Services.jpeg" width="200"> | <img src="screenshots/mobile-Services.jpeg" width="150"> |
+
+## Inquiry Responsive Design
+|Nest Hub Max | iPad Mini | iPhone 16 |
+|:---:|:---:|:---:|
+| <img src="screenshots/nestHub-inquiry.jpeg" width="300"> | <img src="screenshots/ipadMini-inquiry.jpeg" width="200"> | <img src="screenshots/mobile-inquiry.jpeg" width="150"> |
+
 
 ## References
+Codecademy, 2024. _Markdown Tables_ .[online] Available at: <https://www.codecademy.com/resources/docs/markdown/tables> [Accessed on: 02 November 2026].
 DESIGN.COM, 2026. _DESIGN.COM_ .[online] Available at: <https://www.design.com/maker/mylogos/drafts/e923f4f1-8670-43df-990f-f0f8613697a5/editor> [Accessed on: 01 November 2026].
 Google Maps, 2026. _Google Maps_ .[online] Available at: <https://www.google.com/maps/@-33.9030213,18.573739,14z?>[Accessed on: 02 November 2026].
 Host Africa, 2026. How much does it cost to build a website  in South Africa? (2026 Price Guide).[online] Available at:< https://hostafrica.co.za/blog/websites/website-basics/how-much-does-a-website-cost-in-south-africa/ > [Accessed on: 31 July 2026].
