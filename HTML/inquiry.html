@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product and Serive Inquiries | Panorama Pet Shop</title>
+    <meta name="description" content="Send Panorama Pet Shop an inquiry abput products, services, volunteering or sponsorship opportunities.">
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+<body>
+       <nav>
+            <img src="MEDIA/home/logo.png" alt="Panorama Pet Shop logo" class="logo">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a href="index.html">Home</a>
+            <a href="HTML/About.html">About Us</a>
+            <a href="HTML/Products.html">Products</a>
+            <a href="HTML/Services.html">Services</a>
+            <a href="HTML/Contact.html">Contact</a>
+            <a href="HTML/inquiry.html">Inquiries</a>
+        </nav>
+        <main>
+            <section>
+                <h1>Make an Inquiry</h1>
+                <p>
+                    Have a question? We would love to hear from you.
+                    Select the type of inquiry below and complete the form so that we can assist you.
+                </p>
+            </section>
+            <!-- Inquiry Form -->
+            <section>
+               <form id="inquiry-form">
+                   <div>
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="fullName" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Contact Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div>
+                        <label for="inquiry-type">What would you like to inquire about?</label>
+                        <select id="inquiry-type" name="inquiryType" required>
+                            <option value="">Select an inquiry type</option>
+                            <option value="product">Products</option>
+                            <option value="service">Services</option>
+                            <option value="volunteer">Volunteering</option>
+                            <option value="sponsor">Sponsorship</option>
+                        </select>
+                    </div>
+                    <!-- Product Inquiry -->
+
+                    <div id="product-fields" hidden>
+                        <h3>Product Inquiry</h3>
+                        <label for="product-name">Product Name:</label>
+                        <input type="text" id="product-name" name="productName">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1">
+                    </div>
+
+                    <!-- Service Inquiry -->
+                    <div id="service-fields" hidden>
+                        <h3>Service Inquiry</h3>
+                        <label for="service-name">Service Required:</label>
+                        <select id="service-name" name="serviceName">
+                            <option value="">Select a service</option>
+                            <option value="grooming">Pet Grooming</option>
+                            <option value="consultation">Pet Care Consultation</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="preferred-date">Preferred Date:</label>
+                        <input type="date" id="preferred-date" name="preferredDate">
+                    </div>
+
+                    <!-- Volunteer Inquiry -->
+
+                    <div id="volunteer-fields" hidden>
+                        <h3>Volunteer Inquiry</h3>
+                        <label for="volunteer-interest">Why would you like to volunteer?</label>
+                        <textarea id="volunteer-interest" name="volunteerInterest" rows="4"></textarea>
+                        <label for="volunteer-availability">When are you available?</label>
+                        <select id="volunteer-availability" name="volunteerAvailability">
+                            <option value="">Select availability</option>
+                            <option value="weekdays">Weekdays</option>
+                            <option value="weekends">Weekends</option>
+                            <option value="both">Both</option>
+                        </select>
+                    </div>
+
+                    <!-- Sponsorship Inquiry -->
+
+                    <div id="sponsor-fields" hidden>
+                        <h3>Sponsorship Inquiry</h3>
+                        <label for="organisation">Organisation Name (if applicable):</label>
+                        <input type="text" id="organisation" name="organisation">
+                        <label for="sponsor-interest">How would you like to sponsor?</label>
+                        <textarea id="sponsor-interest" name="sponsorInterest" rows="4"></textarea>
+                    </div>
+                    <div>
+                        <label for="message">Additional Message:</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit">Submit Inquiry</button>
+                </form>
+                <!-- Response displayed after submission -->
+                <div id="inquiry-response" role="status" aria-live="polite"></div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <!-- Logo -->
+                <div class="footer-logo">
+                    <img src="MEDIA/home/logo.png" alt="Panorama Pet Shop logo" class="logo">
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="HTML/About.html">About Us</a>
+                    <a href="HTML/Products.html">Products</a>
+                    <a href="HTML/Services.html">Services</a>
+                    <a href="HTML/Contact.html">Contact</a>
+                    <a href="HTML/inquiry.html">Inquiries</a>
+                </div>
+
+                <!-- Contact information -->
+                <div class="footer-contact">
+                    <h3>Contact Information</h3>
+                    <p>Phone: <a href="tel:0219302609">021 930 2609</a></p>
+                    <p>Email: <a href="mailto:shop@panoramapetshop.co.za">shop@panoramapetshop.co.za</a></p>
+                    <p>Location: <a href="https://www.google.com/maps/place/Panorama+Pet+Shop" target="_blank">88 Wynne Street, Parow 7500</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Panorama Pet Shop. All right reserved.</p>
+            </div>
+        </footer>
+
+        <script src="../javascript/script.js"></script>
+        <script src="../javascript/inquiry.js"></script>
+</body>
+</html>
