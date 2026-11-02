@@ -791,3 +791,13 @@ b{
     border: 1px solid var(--emerald);
     border-radius:5px;
 }
+#volunteer-availability{
+    padding: 10px 16px;
+    border: 1px solid var(--emerald);
+    border-radius:5px;
+}
+#service-name{
+    padding: 10px 16px;
+    border: 1px solid var(--emerald);
+    border-radius:5px;
+}
