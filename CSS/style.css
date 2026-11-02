@@ -421,10 +421,17 @@ b{
         height:350px;
         
     }
+    .faq-question, .faq-answer{
+        padding:12px;
+    }
 }
 
 
 @media (max-width: 480px){
+    .faq-question, .faq-answer{
+        padding:10px;
+        font-size:14px;
+    }
     .map-container iframe{
         height:280px;
    
@@ -514,8 +521,9 @@ b{
     margin-bottom:25px;
 }
 .faq-item{
-    border-bottom: 1px solid var(--text);
-    margin-bottom:10px;
+    display:block;
+    width:100%;
+    margin-bottom:14px;
 }
 .faq-item h3{
     margin:0;
@@ -544,6 +552,14 @@ b{
 }
 .faq-answer p{
     margin: 0;
+}
+.faq-question, .faq-answer{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+}
+.faq-answer[hidden]{
+    display:none;
 }
 
 /* responsive Google Map */
