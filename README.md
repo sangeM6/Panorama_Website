@@ -101,6 +101,7 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 |02 November 2026| Implement elements like accordions, tabs, or modals to enhance user experience.| Added a FAQ section on the Contact page and then styled it in css| HTML/Contact.html and CSS/style.css| Added a FAQ Accordion on the contact page and sstyled it.|
 |02 November 2026| Implement elements like accordions, tabs, or modals to enhance user experience.| Added the FAQ Accordion functionality using javascript.| javascript/script.js| Added faq accordion functionality.|
 |02 November 2026| Include Google Maps| Embeded Google Maps for the user to see the location of the store.| HTML/About.html and CSS/style.css| Embed a Google Map on the About and made it responsive for different screens using css.|
+|02 November 2026| Include a form in both inquiry.html and contact.html| Added the inquiry page and then linked css to it for style. | inquiry.html | Added an inquiry page and updated the nav links and footer links on every page. |
 
 
 ## References
