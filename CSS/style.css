@@ -786,3 +786,8 @@ b{
     color:var(--coral);
     text-decoration:underline;
 }
+#inquiry-type{
+    padding: 10px 16px;
+    border: 1px solid var(--emerald);
+    border-radius:5px;
+}
