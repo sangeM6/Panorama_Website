@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sangem6.github.io/Panorama_Website/sitemap.xml
+
