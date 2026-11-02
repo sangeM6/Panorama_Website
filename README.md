@@ -103,6 +103,8 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 |02 November 2026| Include Google Maps| Embeded Google Maps for the user to see the location of the store.| HTML/About.html and CSS/style.css| Embed a Google Map on the About and made it responsive for different screens using css.|
 |02 November 2026| Include a form in both inquiry.html and contact.html| Added the inquiry page and then linked css to it for style. | inquiry.html | Added an inquiry page and updated the nav links and footer links on every page. |
 |02 November 2026| Create Sitemap.xml and Robots.txt files | Created the sitemap.xml and robots.txt files. | robots.txt and sitemap.xml | Added robots.txt <br> Added sitemap.xml |
+|02 November 2026 | Add screenshots of the website | Added screenshots of 3 pages in 3 different scren sizes| screenshots/ | Added screenshots images on the readme|
+
 
 ### Part 3 Screenshots of the Webiste in 3 different screens
 ## Homepage Responsive Design
