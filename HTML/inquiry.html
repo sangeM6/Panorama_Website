@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product and Serive Inquiries | Panorama Pet Shop</title>
     <meta name="description" content="Send Panorama Pet Shop an inquiry abput products, services, volunteering or sponsorship opportunities.">
-    <link href="CSS/style.css" rel="stylesheet">
+    <link href="../CSS/style.css" rel="stylesheet">
 </head>
 <body>
        <nav>
@@ -34,15 +34,15 @@
             <section>
                <form id="inquiry-form">
                    <div>
-                        <label for="full-name">Full Name:</label>
-                        <input type="text" id="full-name" name="fullName" required>
+                        <label for="full-name">Full Name:</label><br>
+                        <input type="text" id="full-name" name="fullName" required autofocus>
                     </div>
                     <div>
-                        <label for="email">Email Address:</label>
+                        <label for="email">Email Address:</label><br>
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div>
-                        <label for="phone">Contact Number:</label>
+                        <label for="phone">Contact Number:</label><br>
                         <input type="tel" id="phone" name="phone" required>
                     </div>
                     <div>
@@ -59,9 +59,9 @@
 
                     <div id="product-fields" hidden>
                         <h3>Product Inquiry</h3>
-                        <label for="product-name">Product Name:</label>
+                        <label for="product-name">Product Name:</label><br><br>
                         <input type="text" id="product-name" name="productName">
-                        <label for="quantity">Quantity:</label>
+                        <label for="quantity">Quantity:</label><br><br>
                         <input type="number" id="quantity" name="quantity" min="1">
                     </div>
 
@@ -103,8 +103,9 @@
                         <label for="sponsor-interest">How would you like to sponsor?</label>
                         <textarea id="sponsor-interest" name="sponsorInterest" rows="4"></textarea>
                     </div>
+                    <br>
                     <div>
-                        <label for="message">Additional Message:</label>
+                        <label for="message">Additional Message:</label><br>
                         <textarea id="message" name="message" rows="4"></textarea>
                     </div>
                     <button type="submit">Submit Inquiry</button>
