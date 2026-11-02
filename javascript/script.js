@@ -272,3 +272,149 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+// Inquiry form functionality
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const inquiryForm = document.getElementById("inquiry-form");
+
+    // Only run on the inquiry page.
+    if (!inquiryForm) {
+        return;
+    }
+
+    const inquiryType = document.getElementById("inquiry-type");
+    const response = document.getElementById("inquiry-response");
+
+    // Get the inquiry sections.
+    const inquirySections = {
+        product: document.getElementById("product-fields"),
+        service: document.getElementById("service-fields"),
+        volunteer: document.getElementById("volunteer-fields"),
+        sponsor: document.getElementById("sponsor-fields")
+    };
+
+    // Hide all inquiry sections initially.
+    Object.values(inquirySections).forEach(function(section) {
+        section.querySelectorAll("input, select, textarea").forEach(function(field) {
+            field.disabled = true;
+            field.required = false;
+        });
+    });
+
+    // Display the selected inquiry section.
+    inquiryType.addEventListener("change", function() {
+
+        Object.values(inquirySections).forEach(function(section) {
+            section.hidden = true;
+
+            section.querySelectorAll("input, select, textarea").forEach(function(field) {
+                field.disabled = true;
+                field.required = false;
+            });
+        });
+
+        const activeSection = inquirySections[inquiryType.value];
+
+        if (activeSection) {
+            activeSection.hidden = false;
+
+            activeSection.querySelectorAll("input, select, textarea").forEach(function(field) {
+                field.disabled = false;
+            });
+
+            if (inquiryType.value === "product") {
+                document.getElementById("product-name").required = true;
+                document.getElementById("quantity").required = true;
+            }
+
+            if (inquiryType.value === "service") {
+                document.getElementById("service-name").required = true;
+            }
+
+            if (inquiryType.value === "volunteer") {
+                document.getElementById("volunteer-interest").required = true;
+                document.getElementById("volunteer-availability").required = true;
+            }
+
+            if (inquiryType.value === "sponsor") {
+                document.getElementById("sponsor-interest").required = true;
+            }
+        }
+
+        response.textContent = "";
+    });
+
+
+    // Validate and process the inquiry.
+    inquiryForm.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        if (!inquiryForm.reportValidity()) {
+            return;
+        }
+
+        const name = document.getElementById("full-name").value.trim();
+
+        let message = "";
+
+        // Product inquiry.
+        if (inquiryType.value === "product") {
+
+            const product = document.getElementById("product-name").value.trim();
+            const quantity = document.getElementById("quantity").value;
+
+            message = "Thank you, " + name + "! Your inquiry about " +
+                product + " (quantity: " + quantity +
+                ") has been received. We will confirm the current price and product availability with you.";
+        }
+
+        // Service inquiry.
+        else if (inquiryType.value === "service") {
+
+            const serviceSelect = document.getElementById("service-name");
+            const service = serviceSelect.options[serviceSelect.selectedIndex].text;
+            const date = document.getElementById("preferred-date").value;
+
+            message = "Thank you, " + name + "! Your inquiry about " +
+                service + " has been received. " +
+                (date ? "Your preferred date is " + date + ". " : "") +
+                "We will confirm the service cost and appointment availability with you.";
+        }
+
+        // Volunteer inquiry.
+        else if (inquiryType.value === "volunteer") {
+
+            message = "Thank you, " + name +
+                "! Your volunteering inquiry has been received. We will contact you with more information about possible opportunities.";
+        }
+
+        // Sponsorship inquiry.
+        else if (inquiryType.value === "sponsor") {
+
+            message = "Thank you, " + name +
+                "! Your sponsorship inquiry has been received. We will contact you to discuss possible sponsorship opportunities.";
+        }
+
+        // Display the response.
+        response.textContent = message;
+
+        // Reset the form.
+        inquiryForm.reset();
+
+        // Hide all inquiry sections again.
+        Object.values(inquirySections).forEach(function(section) {
+            section.hidden = true;
+
+            section.querySelectorAll("input, select, textarea").forEach(function(field) {
+                field.disabled = true;
+                field.required = false;
+            });
+        });
+
+    });
+
+});
