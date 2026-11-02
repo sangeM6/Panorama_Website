@@ -22,8 +22,8 @@
         <a href="Contact.html">Contact Us</a>
     </nav>
     <main>
-        <h1>Contact Us</h1>
-        <section>
+        <section id="contact-section">
+            <h1>Contact Us</h1>
             <form>
                 <label for="name">Name:</label><br>
                 <input type="text" name="name" required autofocus><br><br>
@@ -33,6 +33,59 @@
                 <textarea name="message" rows="5" required></textarea><br><br>
                 <input type="submit" value="submit" class="submit">
             </form>
+        </section>
+        <section class="faq-section" aria-labelledby="faq-heading">
+            <h2 id="faq-heading">Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>
+                    <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-1">
+                        What payment methods do yo accept?
+                    </button>
+                </h3>
+                <div class="faq-answer" id="faq-answer-1" hidden>
+                    <p>Please contact our team to confirm the payment methods currently available.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3>
+                    <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-2">
+                        Do you offer delivery services?
+                    </button>
+                </h3>
+                <div class="faq-answer" id="faq-answer-2" hidden>
+                    <p>Yes, we offer delivery services for most of our products. Please contact our team for more information.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3>
+                    <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-3">
+                        Can I return a product if I am not satisfied?
+                    </button>
+                </h3>
+                <div class="faq-answer" id="faq-answer3" hidden>
+                    <p>Contact our team for assistance with product returns and the applicable return conditions.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3>
+                    <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-4">
+                        Do you sell products for different types of pets?
+                    </button>
+                </h3>
+                <div class="faq-answer" id="faq-answer-4" hidden>
+                    <p>Yes. Browse our Products page to see the pet products available in our shop.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3>
+                    <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-5">
+                        How can i contact your customer support team?
+                    </button>
+                </h3>
+                <div class="faq-answer" id="faq-answer-5" hidden>
+                    <p>You can send us a message using the contact form on this page.</p>
+                </div>
+            </div>
         </section>
     </main>
     <!-- Footer -->

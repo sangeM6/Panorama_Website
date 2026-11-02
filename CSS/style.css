@@ -488,4 +488,52 @@ b{
     }
    
 }
+.contact-section{
+    margin: 40px auto;
+    align-items:center;
+    padding:20px;
+    width:100%;
+}
 
+/* FAQ Accordion */
+.faq-section{
+    max-width:100%;
+    margin:40px auto;
+    padding:20px;
+}
+.faq-section h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+.faq-item{
+    border-bottom: 1px solid var(--text);
+    margin-bottom:10px;
+}
+.faq-item h3{
+    margin:0;
+}
+.faq-question{
+    width:100%;
+    padding:15px;
+    background-color: var(--coral);
+    color: var(--cream);
+    border:none;
+    text-align:left;
+    font-size:16px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+.faq-question:hover{
+    background-color: var(--emerald);
+}
+.faq-question:focus-visible{
+    outline:3px solid var(--emerald);
+}
+.faq-answer{
+    padding:15px;
+    background-color: var(--cream);
+    color: var(--text);
+}
+.faq-answer p{
+    margin: 0;
+}
