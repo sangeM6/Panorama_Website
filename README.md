@@ -102,17 +102,19 @@ The sitemap below shows the structure and hierarchy of the Panorama Pet Shop web
 |02 November 2026| Implement elements like accordions, tabs, or modals to enhance user experience.| Added the FAQ Accordion functionality using javascript.| javascript/script.js| Added faq accordion functionality.|
 |02 November 2026| Include Google Maps| Embeded Google Maps for the user to see the location of the store.| HTML/About.html and CSS/style.css| Embed a Google Map on the About and made it responsive for different screens using css.|
 |02 November 2026| Include a form in both inquiry.html and contact.html| Added the inquiry page and then linked css to it for style. | inquiry.html | Added an inquiry page and updated the nav links and footer links on every page. |
+|02 November 2026| Create Sitemap.xml and Robots.txt files | Created the sitemap.xml and robots.txt files. | robots.txt and sitemap.xml | Added robots.txt <br> Added sitemap.xml |
 
 
 ## References
-DESIGN.COM, 2026. _DESIGN.COM_ .[online] Available at: <https://www.design.com/maker/mylogos/drafts/e923f4f1-8670-43df-990f-f0f8613697a5/editor>
-Google Maps, 2026. _Google Maps_ .[online] Available at: <https://www.google.com/maps/@-33.9030213,18.573739,14z?>
+DESIGN.COM, 2026. _DESIGN.COM_ .[online] Available at: <https://www.design.com/maker/mylogos/drafts/e923f4f1-8670-43df-990f-f0f8613697a5/editor> [Accessed on: 01 November 2026].
+Google Maps, 2026. _Google Maps_ .[online] Available at: <https://www.google.com/maps/@-33.9030213,18.573739,14z?>[Accessed on: 02 November 2026].
 Host Africa, 2026. How much does it cost to build a website  in South Africa? (2026 Price Guide).[online] Available at:< https://hostafrica.co.za/blog/websites/website-basics/how-much-does-a-website-cost-in-south-africa/ > [Accessed on: 31 July 2026].
 Interaction Design Foundation, [n.d.]. Interaction Design Foundation. [online] Available at: < https://www.interaction-design.org/ > [Accessed on: 30 July 2026].
 Mozilla Developer Network (MDN), [n.d.]. CSS Reference. [online] Available at:<https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts> [Accessed on: 17 September 2026].
 Smith R., 2017. Validating product Design ideas with low-fidelity wireframes. [online] Available at:<https://medium.com/@robertsmith_co/validating-your-product-design-ideas-with-low-fidelity-wireframes-fba03b84af23 > [Accessed on: 31 July 2026].
 Panorama Pet Shop, [n.d.]. Panorama Pet Shop. [online] Available at: < https://panoramapetshop.co.za/product-category/reptiles/ >[Accessed on: 31 July 2026].
 W3Schools, [n.d.]. CSS Tutorial. [online] Available at: <https://www.w3schools.com/css/> [Accessed on: 17 September 2026].
+Yakushev R., [n.d.]. _Managing Robots.txt and Sitemap files_ . [online] Available at: <https://learn.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files> [Accessed on: 02 November 2026].
 
 
 
